@@ -16,5 +16,11 @@ public class Main {
         s1.age = 20;
         s1.gpa = 4.00;
         System.out.println(s1.gpa);
+
+        Instructor i1 = new Instructor(5.9, 30, 2343);
+        i1.height = 5.9;
+        i1.age = 30;
+        i1.EID = 2343;
+        System.out.println(i1.height + "" + i1.age + "" + i1.EID);
     }
 }
